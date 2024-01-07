@@ -1,0 +1,52 @@
+{
+  "clothes": [
+    {
+      "bookName": "Кроссовки Nike Dunk Low Nike",
+      "bookImg": "https://campioshop.ru/upload/resize_cache/webp/iblock/a31/320_320_2/fwe5m1ue04388m7w5klqj1x5zstxmqs7.webp",
+      "bookPrice": "1000",
+      "id": 1
+    },
+    {
+      "bookName": "Кроссовки Nike Dunk Low Mini Swoosh",
+      "bookImg": "https://campioshop.ru/upload/resize_cache/webp/iblock/f51/320_320_2/49dzal3br78z5ozjxvsocfm7p5mrut48.webp",
+      "bookPrice": "2000",
+      "id": 2
+    },
+    {
+      "bookName": "Кроссовки Nike Blazer Mid '77 Vintage ",
+      "bookImg": "https://campioshop.ru/upload/resize_cache/webp/iblock/0ca/320_320_2/x1n2wquideqom3s2n5y2q9b82samm3yk.webp",
+      "bookPrice": "3000",
+      "id": 3
+    },
+    {
+      "bookName": "Кроссовки Nike Air Force 1 '07",
+      "bookImg": "https://campioshop.ru/upload/resize_cache/webp/iblock/ac2/320_320_2/ynxsv2r7bp7zq7rwe38roa8ysu2syixy.webp",
+      "bookPrice": "4000",
+      "id": 4
+    },
+    {
+      "bookName": "Кроссовки Nike Dunk Low Nike",
+      "bookImg": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8c6dbc92-1095-444d-bc09-0e23bbbc4dbd/gt-cut-2-mens-basketball-shoes-tmfmFl.png",
+      "bookPrice": "5000",
+      "id": 5
+    },
+    {
+      "bookName": "Кроссовки Nike Dunk Low Mini Swoosh",
+      "bookImg": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fabaa569-6800-419f-be28-cf794a467636/air-max-correlate-womens-shoes-29Vjp0.png",
+      "bookPrice": "6000",
+      "id": 6
+    },
+    {
+      "bookName": "Кроссовки Nike Blazer Mid '77 Vintage ",
+      "bookImg": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/14385617-4d3f-4a7c-8478-ddd138ef4d22/dunk-low-retro-mens-shoes-b7qQN2.png",
+      "bookPrice": "7000",
+      "id": 7
+    },
+    {
+      "bookName": "Кроссовки Nike Air Force 1 '07",
+      "bookImg": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e527a8aa-768f-4f1b-ba8e-9f2fd8dc290b/air-max-terrascape-plus-mens-shoes-2bxm1R.png",
+      "bookPrice": "8000",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+body {
+  color: white;
+  box-sizing: border-box;
+}
+.cont__2 {
+  margin-top: 100px;
+}
+.card-body h5 {
+  color: white;
+}
+.card-body div {
+  color: white;
+}
+#contt {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 100px;
+}
+.card {
+  text-align: center;
+  border: 2px rgba(255, 255, 255, 0.25) solid;
+}
+.card h5 {
+  width: 180px;
+  padding: 5px 10px 10px 10px;
+}
+.card div {
+  width: 180px;
+  padding: 10px;
+}
+.card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.cont__2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 30px;
+  margin-top: -350px;
+}
+.a {
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  position: fixed;
+  margin-top: 200px;
+  transition: all 1s;
+  background: #171717;
+}
+.addBtnShow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 80px;
+  height: 20px;
+  text-align: center;
+}
+#btnShow {
+  border: 0;
+  background: inherit;
+  color: white;
+}
+.inputBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 250px;
+}
+.inputBox input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgba(130, 125, 125, 0.25);
+  background: #171717;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  font-size: 1em;
+  margin: 10px;
+}
+.inputBox input:focus {
+  border: 2px solid red;
+}
+.inputBox span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.443);
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  color: red;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: #171717;
+  border-left: 1px solid red;
+}
+#btnAdd {
+  font-size: 1.2em;
+  padding: 10px 30px;
+  color: red;
+  border: 1px solid red;
+  background: #171717;
+  border-radius: 5px;
+}
+.editModal {
+  display: none;
+  position: fixed;
+  top: 200px;
+  background: #171717;
+  text-align: center;
+  width: 250px;
+  padding: 30px;
+}
+.editModal input {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid rgba(130, 125, 125, 0.25);
+  background: #171717;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  font-size: 1em;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.editModal input:focus {
+  border: 2px solid red;
+}
+.saveEdit {
+  font-size: 1.2em;
+  padding: 10px 30px;
+  color: red;
+  border: 1px solid red;
+  background: #171717;
+  border-radius: 5px;
+}
+.btn {
+  color: red;
+  background: black;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  padding: 6px;
+  cursor: pointer;
+}
+.none {
+  cursor: pointer;
+}
+.none p {
+  border: 1px solid grey;
+  padding: 10px;
+}
+.pug {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#prevBtn {
+  background: red;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 0.2s;
+  border: 0;
+  cursor: pointer;
+  box-shadow: #c03b3ba2 0px 10px;
+  margin-right: 20px;
+}
+#prevBtn:active {
+  position: relative;
+  display: inline-block;
+  transform: translate3d(0px, 5px, 0px);
+  box-shadow: #c03b3b 0px 0px;
+}
+#nextBtn:active {
+  position: relative;
+  display: inline-block;
+  transform: translate3d(0px, 5px, 0px);
+  box-shadow: #c03b3b 0px 0px;
+}
+#nextBtn {
+  background: red;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 0.2s;
+  border: 0;
+  cursor: pointer;
+  box-shadow: #c03b3ba2 0px 10px;
+}
